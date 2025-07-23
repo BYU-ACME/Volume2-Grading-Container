@@ -21,12 +21,12 @@ RUN pip install --no-cache-dir -r /tmp/requirements.txt
 # Universal Dependencies
 RUN pip install --no-cache-dir \
     cvxopt~=1.3.2 \
-    ipykernel~=6.29.0 \
+    ipykernel~=6.29.5 \
     flake8~=7.3.0 \
-    pytest>=7.4.4,<8 \
-    pytest-cov>=6.2.1,<7 \
-    ipython>=9.4.0,<10 \
-    coverage>=7.9.2,<8
+    pytest~=7.4.4 \
+    pytest-cov~=6.2.1 \
+    ipython~=9.4.0 \
+    coverage~=7.9.2
 
 # Uncomment this line for Volume 1, 2, and 4 grading repos
 RUN pip install --no-cache-dir "pandas>=2.3.1,<3"
