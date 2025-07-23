@@ -23,13 +23,13 @@ RUN pip install --no-cache-dir \
     cvxopt~=1.3.2 \
     ipykernel~=6.29.0 \
     flake8~=7.3.0 \
-    pytest>=7.4.0,<8 \
-    pytest-cov>=6.1.1,<7 \
-    ipython>=8.26.0,<9 \
-    coverage>=7.8.1,<8
+    pytest>=7.4.4,<8 \
+    pytest-cov>=6.2.1,<7 \
+    ipython>=9.4.0,<10 \
+    coverage>=7.9.2,<8
 
 # Uncomment this line for Volume 1, 2, and 4 grading repos
-# RUN pip install --no-cache-dir "pandas>=2.3.1,<3"
+RUN pip install --no-cache-dir "pandas>=2.3.1,<3"
 
 
 ########################  CONFIGURE GIT ########################
